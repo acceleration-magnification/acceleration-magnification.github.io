@@ -35,13 +35,13 @@
       border-color: #f1f1f1;
   }
   .carousel-inner img {
-      -webkit-filter: grayscale(90%);
-      filter: grayscale(90%); /* make all photos black and white */ 
+      -webkit-filter: grayscale(60%);
+      filter: grayscale(60%); /* make all photos black and white */ 
       width: 100%; /* Set width to 100% */
       margin: auto;
   }
-  .carousel-caption h3 {
-      color: #fff !important;
+  .carousel-caption h3, p {
+      color: #666 !important;
   }
   @media (max-width: 600px) {
     .carousel-caption {
@@ -205,24 +205,49 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active" style="padding:50px 0 200px 0"> 
-		<iframe width="960" height="540" src="cattoy.mp4" style="position:relative; display:block; margin:0 auto; padding:0 0 0 0"></iframe> 	
+      <div class="item active" style="padding:50px 100px;"> 
+        <img src="strip/cat_toy.png" alt="Cat Toy" height="400">
         <div class="carousel-caption">
-          <h3>Video Acceleration Magnification</h3>
-		  <p>Yichao Zhang, Silvia L. Pintea, and Jan C. van Gemert</p>
-		  <p>Vision Lab, Delft University of Technology,Delft, Netherlands.</p>
         </div>      
       </div>    
-      <div class="item" style="padding:50px 0 200px 0">
-		<iframe width="740" height="590" src="gun.mp4" style="position:relative; display:block;  margin:0 auto; padding:0 0 0 0"></iframe> 	
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/gun.png" alt="Gun" height="400">
         <div class="carousel-caption">
-          <h3>Video Acceleration Magnification</h3>
-		  <p>Yichao Zhang, Silvia L. Pintea, and Jan C. van Gemert</p>
-		  <p>Vision Lab, Delft University of Technology,Delft, Netherlands.</p>
+        </div>      
+      </div>    
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/drone.png" alt="Drone" height="400">
+        <div class="carousel-caption">
+        </div>      
+      </div>    
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/baby.png" alt="Baby" height="400">
+        <div class="carousel-caption">
+        </div>      
+      </div>    
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/parkinson1.png" alt="Parkinson I" height="400">
+        <div class="carousel-caption">
+        </div>      
+      </div>    
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/parkinson2.png" alt="Parkinson II" height="400">
+        <div class="carousel-caption">
+        </div>      
+      </div>    
+      <div class="item" style="padding:50px 100px;">
+        <img src="strip/water.png" alt="Water" height="400">
+        <div class="carousel-caption">
         </div>      
       </div>    
     </div>
@@ -387,16 +412,16 @@
   <div class="row">
     <div class="col-sm-4">
       <p class="text-center"><strong>Download our videos:</strong></p><br>
-      <a href="videos.zip" data-toggle="collapse"> Download video data.</a>
+      <a href="videos.zip" target="_self"> Download video data.</a>
 	</div>
     <div class="col-sm-4">
       <p class="text-center"><strong>Source code:</strong></p><br>
-      <a href="#other" data-toggle="collapse"> To be added soon. </a>
+      <a href="#other" target="_self"> To be added soon. </a>
 	</div>
     <div class="col-sm-4">
       <p class="text-center"><strong>Paper &amp; Supplementary:</strong></p><br>
-      <a href="paper.pdf" data-toggle="collapse"> Download pdf. </a><br/>
-      <a href="supplementary.avi" data-toggle="collapse"> Download supplementary. </a><br/>
+      <a href="paper.pdf" target="_self"> Download pdf. </a><br/>
+      <a href="supplementary.avi" target="_self"> Download supplementary. </a><br/>
 	</div>
   </div>
   <div class="row">
